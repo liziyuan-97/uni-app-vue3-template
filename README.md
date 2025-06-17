@@ -2,9 +2,6 @@
 
 基于 `uni-app` 的 `vite` + `vue3` + `tailwindcss` 模板
 
-假如你觉得好用，欢迎给我的 [`weapp-tailwindcss`](https://github.com/sonofmagic/weapp-tailwindcss) 点个 `Star` 吧。
-
-官网地址: <https://weapp-tw.icebreaker.top/>
 
 ## 特性
 
@@ -18,12 +15,8 @@
 
 - 🧬 [uni-app 条件编译样式](https://weapp-tw.icebreaker.top/docs/quick-start/uni-app-css-macro) - 帮助你在多端更灵活的使用 `TailwindCSS`
 
-- 🦾 [TypeScript](https://www.typescriptlang.org/) & [ESLint](https://eslint.org/) & [Stylelint](https://stylelint.io/) - 样式，类型，统一的校验与格式化规则，保证你的代码风格和质量
-
 ## 快速开始
 
-> 请使用 `Node >=20(LTS)` 运行此项目!
->
 > 另外谨慎升级 `package.json` 中锁定的 `pinia`/`vue`/`@vue/*` 相关包的版本，新版本可能 `uni-app` 没有兼容，造成一些奇怪的 bug
 
 使用 `vscode` 的开发者，请先安装 [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss) 智能提示与感应插件
@@ -35,8 +28,6 @@
 - `pnpm open:dev` 打开微信开发者工具，引入 `dist/dev/mp-weixin`
 - `pnpm open:build` 打开微信开发者工具，引入 `dist/build/mp-weixin`
 
-[详细信息](https://www.npmjs.com/package/weapp-ide-cli)
-
 ## 升级依赖
 
 - `pnpm up:pkg` 升级除了 `uni-app` 相关的其他依赖
@@ -44,19 +35,9 @@
 
 推荐先使用 `pnpm up:pkg` 升级, 再使用 `pnpm up:uniapp` 进行升级，因为 `pnpm up:uniapp` 很有可能会进行版本的降级已达到和 `uni-app` 版本匹配的效果
 
-## 其他模板
-
-👉 [🔥 tarojs / 🔥 uni-app / 🔥 hbuilderx 等更多模板链接](https://weapp-tw.icebreaker.top/docs/community/templates)
-
-## tailwindcss 生态
-
-详见：https://github.com/aniftyco/awesome-tailwindcss
-
-你可以在这里找到许多现成的UI，组件模板。
 
 ## 单位转换
 
-- `rem` -> `rpx` (默认开启, 见 `vite.config.ts` 中 `uvtw` 插件的 `rem2rpx` 选项)
 - `px` -> `rpx` (默认不开启，可在 `postcss.config.ts` 中引入 `postcss-pxtransform` 开启配置)
 
 ## Tips

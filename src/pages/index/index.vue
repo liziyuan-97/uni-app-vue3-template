@@ -64,7 +64,7 @@
   <view class="content">
     <WeappTailwindcss />
     <view class="my-3 w-full border-t border-solid border-gray-200" />
-    <view class="text-xl text-gray-600/95">
+    <view class="text-gray-600/95 tw-font-bold tw-text-[28rpx] tw-text-[#cdcdcd]">
       写法示例Start!
     </view>
     <view class="mt-[13.14758px] flex flex-col items-center space-y-[20rpx]">
